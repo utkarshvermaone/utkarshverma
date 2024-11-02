@@ -57,6 +57,7 @@ hr {
 @media (min-width: 768px) {
     ul {
         padding-left: 55px; /* Increase padding for better alignment on desktop */
+        margin-bottom: 10px; /* Reduced margin for desktop */
     }
 
   /*  p {
