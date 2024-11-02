@@ -29,15 +29,15 @@ p {
 }
 
 ul {
-    padding-left: 20px; /* Adds padding to align bullets */
-    margin-top: 10px;   /* Adds space above the list */
+    padding-left: 20px; /* Default padding for bullets */
+    margin-top: 10px;   /* Space above the list */
     color: #555;
     line-height: 1.6;
     text-align: left;
 }
 
 hr {
-    border: 0.3px solid #333;
+    border: 1px solid #333;
     width: 80%;
     margin: 10px auto;
 }
@@ -53,6 +53,17 @@ hr {
     border-radius: 5px;
 }
 
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+    ul {
+        padding-left: 30px; /* Increase padding for better alignment on desktop */
+    }
+
+    p {
+        font-size: 1.1em; /* Slightly larger text for better readability on desktop */
+    }
+}
+
 .social-media a {
     color: #0066cc;
     text-decoration: none;
@@ -66,5 +77,5 @@ hr {
 footer {
     color: #333;
     font-size: 1.2em;
-text-align: center;
-    }
+    text-align: center; /* Center the footer text */
+}
