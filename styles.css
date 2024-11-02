@@ -37,7 +37,7 @@ ul {
 }
 
 hr {
-    border: 1px solid #333;
+    border: 0.3px solid #333;
     width: 80%;
     margin: 10px auto;
 }
@@ -56,7 +56,7 @@ hr {
 /* Adjustments for larger screens */
 @media (min-width: 768px) {
     ul {
-        padding-left: 30px; /* Increase padding for better alignment on desktop */
+        padding-left: 40px; /* Increase padding for better alignment on desktop */
     }
 
     p {
