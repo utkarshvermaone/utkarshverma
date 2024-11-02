@@ -1,11 +1,70 @@
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-h2 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-  
-  p {
-    font-family: 'Times New Roman', Times, serif;
-  }
+
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header, section, footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+}
+
+ul {
+    padding-left: 20px; /* Adds padding to align bullets */
+    margin-top: 10px;   /* Adds space above the list */
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+hr {
+    border: 0.3px solid #333;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.intro p {
+    font-style: italic;
+    color: #666;
+}
+
+.resume, .objective, .education, .other-qualification, .skills, .experience, .declaration, .social-media {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: #333;
+    font-size: 1.2em;
+text-align: center;
+    }
