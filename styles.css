@@ -56,12 +56,12 @@ hr {
 /* Adjustments for larger screens */
 @media (min-width: 768px) {
     ul {
-        padding-left: 40px; /* Increase padding for better alignment on desktop */
+        padding-left: 55px; /* Increase padding for better alignment on desktop */
     }
 
-    p {
-        /* font-size: 1em;  Slightly larger text for better readability on desktop */
-    }
+  /*  p {
+         font-size: 1em;  Slightly larger text for better readability on desktop 
+    } */
 }
 
 .social-media a {
